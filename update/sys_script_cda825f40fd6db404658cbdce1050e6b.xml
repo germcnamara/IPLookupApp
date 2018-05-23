@@ -45,7 +45,7 @@ try {
 	
 	var responseObj = JSON.parse(responseBody);
 		current.city = responseObj.city;
-		gs.info("City = " + current.city);
+		gs.info("City; " + current.city);
 		current.update();
 	
 } catch (err) {
@@ -60,7 +60,7 @@ try {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cda825f40fd6db404658cbdce1050e6b</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Populate IP Address City</sys_name>
         <sys_overrides/>
         <sys_package display_value="IPLookup" source="x_73350_iplookup">b87acd200fde9b404658cbdce1050e8e</sys_package>
@@ -69,7 +69,7 @@ try {
         <sys_scope display_value="IPLookup">b87acd200fde9b404658cbdce1050e8e</sys_scope>
         <sys_update_name>sys_script_cda825f40fd6db404658cbdce1050e6b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-23 10:52:37</sys_updated_on>
+        <sys_updated_on>2018-05-23 13:42:30</sys_updated_on>
         <template/>
         <when>async</when>
     </sys_script>
